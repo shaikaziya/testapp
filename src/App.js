@@ -15,6 +15,7 @@ const App=()=>{
       <h4>Using React and Redux</h4>
 
       <div className="quantity">
+         {/* example without function argument */}
         <a className="quantity_minus" title="Decrement" onClick={()=>dispatch(decNumber())}><span>-</span></a>
         <input name="quantity" type="text" className="quantity_input" value={myState}/>
 
