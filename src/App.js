@@ -17,7 +17,9 @@ const App=()=>{
       <div className="quantity">
         <a className="quantity_minus" title="Decrement" onClick={()=>dispatch(decNumber())}><span>-</span></a>
         <input name="quantity" type="text" className="quantity_input" value={myState}/>
-        <a className="quantity_plus" title="Increment" onClick={()=>dispatch(incNumber())}><span>+</span></a>
+
+        {/* example with function argument */}
+        <a className="quantity_plus" title="Increment" onClick={()=>dispatch(incNumber(5))}><span>+</span></a>
 
       </div>
     </div>
