@@ -12,7 +12,7 @@ const App=()=>{
     <div className="container">
 
       <h1>Increment/Decrement Counter</h1>
-      <h4>Using React and Redux</h4>
+      <h4>Using React Redux</h4>
 
       <div className="quantity">
          {/* example without function argument */}
